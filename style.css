@@ -1,0 +1,41 @@
+.flagred{
+width: 900px;
+height: 200px;
+background-color: #ff9933;
+margin: 0;
+border: 0;
+position: absolute;
+}
+.flagwhite{
+    position: relative;
+    top: 200px;
+    width: 900px;
+    height: 200px;
+    background-color: rgb(255, 255, 254);
+}
+.flagwhite > img{
+    top: 5px;
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-color: transparent;
+    left: 38%;
+    animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.flagreen{
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    top: 400px;
+    background-color: green;
+}
